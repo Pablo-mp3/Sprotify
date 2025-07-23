@@ -1,0 +1,129 @@
+/* Elements */
+.w
+{
+  background-color: #717171;
+}
+
+.t
+{
+  color: #F1F1F1;
+}
+
+.o
+{
+  background-color: #919191;
+}
+
+.a
+{
+  position: absolute;
+}
+
+/* Icon Size */
+
+.i30
+{
+  width: 30px;
+}
+
+.i50
+{
+  width: 50px;
+}
+
+/* Left Position */
+
+.l29
+{
+  left: 2.9vw;
+}
+
+.l2
+{
+  left: 1.3vw;
+}
+
+.l69
+{
+  left: 69px;
+}
+
+/* Top Position */
+
+.t15
+{
+  top: 15px;
+}
+
+.t18
+{
+  top: 1.8vh;
+}
+
+.t2
+{
+  top: 2.5vh;
+}
+
+.t3
+{
+    top: 30px;
+}
+
+/* Width */
+
+.w94
+{
+  width: 94.2vw;
+}
+
+/* Height */
+
+.h7
+{
+    height: 70px;
+}
+
+/* Border Radius */
+
+.b2
+{
+    border-radius: 25px;
+}
+
+.b4
+{
+    border-radius: 40px;
+}
+
+/* Font Size */
+
+.f0
+{
+    font-size: 10px;
+}
+
+.f1
+{
+    font-size: 12px;
+}
+
+.f2
+{
+    font-size: 14px;
+}
+
+.f3
+{
+    font-size: 16px;
+}
+
+.f4
+{
+    font-size: 20px;
+}
+
+.f5
+{
+    font-size: 24px;
+}
