@@ -12,26 +12,6 @@
   <body>
     <!--Main Window-->
     <div class="a w W win l4">
-      <div class="genre-grid">
-        <div class="genre-tile">Pop</div>
-        <div class="genre-tile">Hip-Hop</div>
-        <div class="genre-tile">R&B</div>
-        <div class="genre-tile">Rock</div>
-        <div class="genre-tile">Synth</div>
-        <div class="genre-tile">EDM</div>
-        <div class="genre-tile">Lo-fi</div>
-        <div class="genre-tile">Jazz</div>
-        <div class="genre-tile">Trap</div>
-        <div class="genre-tile">Classical</div>
-        <div class="genre-tile">Indie</div>
-        <div class="genre-tile">Ambient</div>
-        <div class="genre-tile">Soul</div>
-        <div class="genre-tile">Funk</div>
-        <div class="genre-tile">Funk</div>
-      </div>
-      <div class="a sBar l4 t4">
-      </div>
-    </div>
     <!--Player-->
     <div class="a w P win l4">
       <img src="CoverBBM.png" class="a q2 l0 t0">
@@ -50,10 +30,10 @@
     <div class="a w navBar">
       <a href="index.html"><div>
         <img src="house-window.svg" class="a q5 t2 l45 c">
-        <div class="a x1 c t60 l45 b">Home</div>
+        <div class="a x1 c t60 l45">Home</div>
       </div></a>
       <div>
-        <img src="search.svg" class="a q5 t2 l13 c">
+        <img src="search.svg" class="a q5 t2 l15">
         <div class="a x1 c t60 l13 b">Search</div>
       </div>
       <div>
@@ -67,7 +47,8 @@
         <img src="user-music.svg" class="a q5 t2 c l40">
         <div class="a x1 c t60 l40">Profile</div>
       </div>
-      <div class="a l13 c sel"></div>
+      <div class="a l45 c sel"></div>
+    </div>
     </div>
   </body>
 </html>

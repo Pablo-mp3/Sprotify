@@ -1,129 +1,267 @@
-/* Elements */
+.win
+{
+  width: 1800px;
+}
+
 .w
 {
   background-color: #717171;
+  border-radius: 50px;
 }
 
-.t
+/* left */
+
+.l0
 {
-  color: #F1F1F1;
-}
-
-.o
-{
-  background-color: #919191;
-}
-
-.a
-{
-  position: absolute;
-}
-
-/* Icon Size */
-
-.i30
-{
-  width: 30px;
-}
-
-.i50
-{
-  width: 50px;
-}
-
-/* Left Position */
-
-.l29
-{
-  left: 2.9vw;
+  left: 5px;
 }
 
 .l2
 {
-  left: 1.3vw;
+  left: 25px;
 }
 
-.l69
+.l4
 {
-  left: 69px;
+  left: 40px;
 }
 
-/* Top Position */
-
-.t15
+.l45
 {
-  top: 15px;
+  left: 45px;
 }
 
-.t18
+.l6
 {
-  top: 1.8vh;
+  left: 60px;
+}
+
+.l9
+{
+  left: 90px;
+}
+
+.l11
+{
+  left: 110px;
+}
+
+.l13
+{
+  left: 135px;
+}
+
+.l22
+{
+  left: 225px;
+}
+
+.l26
+{
+  left: 260px;
+}
+
+.l29
+{
+  left: 294px;
+}
+
+.l31
+{
+  left: 315px;
+}
+
+.l40
+{
+  left: 405px;
+}
+
+.l41
+{
+  left: 410px;
+}
+
+.r1
+{
+  right: 20px;
+}
+
+.r2
+{
+  right: 80px;
+}
+
+.r3
+{
+  right: 140px;
+}
+
+.r23
+{
+  right: 230px;
+}
+
+/* top */
+
+.t0
+{
+  top: 5px;
+}
+
+.t1
+{
+  top: 8px;
+}
+
+.t6
+{
+  top: 17px;
 }
 
 .t2
 {
-  top: 2.5vh;
+  top: 20px;
 }
 
-.t3
+.t4
 {
-    top: 30px;
+  top: 40px;
 }
 
-/* Width */
-
-.w94
+.t5
 {
-  width: 94.2vw;
+  top: 45px;
 }
 
-/* Height */
-
-.h7
+.t60
 {
-    height: 70px;
+  top: 55px;
 }
 
-/* Border Radius */
-
-.b2
+.t12
 {
-    border-radius: 25px;
+  top: 125px;
 }
 
-.b4
+.t17
 {
-    border-radius: 40px;
+  top: 175px;
 }
 
-/* Font Size */
-
-.f0
+.t28
 {
-    font-size: 10px;
+  top: 285px;
 }
 
-.f1
+.t35
 {
-    font-size: 12px;
+  top: 350px;
 }
 
-.f2
+.t40
 {
-    font-size: 14px;
+  top: 400px;
 }
 
-.f3
+.t51
 {
-    font-size: 16px;
+  top: 510px;
 }
 
-.f4
+.t57
 {
-    font-size: 20px;
+  top: 575px;
 }
 
-.f5
+.t62
 {
-    font-size: 24px;
+  top: 625px;
+}
+
+.t73
+{
+  top: 735px;
+}
+
+.t80
+{
+  top: 800px;
+}
+
+.t85
+{
+  top: 850px;
+}
+
+.t96
+{
+  top: 960px;
+}
+
+/* text */
+
+.x4
+{
+  font-size: 40px;
+}
+
+.x3
+{
+  font-size: 35px;
+}
+
+.x2
+{
+  font-size: 20px;
+}
+
+.x1
+{
+  font-size: 12px;
+}
+
+.x0
+{
+  font-size: 18px;
+}
+
+.b
+{
+  color: black;
+}
+
+/* Image */
+
+.q1
+{
+  height: 100px;
+  border-radius: 5px;
+}
+
+.q2
+{
+  height: 70px;
+  border-radius: 35px;
+}
+
+.q3
+{
+  height: 40px;
+}
+
+.q4
+{
+  height: 56px;
+}
+
+.q5
+{
+  height: 30px;
+}
+
+/* Other */
+
+.c
+{
+  transform: translateX(-50%);
 }
