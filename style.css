@@ -14,6 +14,11 @@ body {
   position: absolute;
 }
 
+.r
+{
+  position: relative;
+}
+
 .P
 {
   top: 700px;
@@ -38,6 +43,12 @@ body {
   -ms-overflow-style: none; /* IE 10+ */
 }
 
+.p
+{
+  top: 25px;
+  height: 755px;
+}
+
 .W::-webkit-scrollbar
 {
   display: none; /* Chrome, Safari, Opera */
@@ -53,7 +64,18 @@ body {
   overflow: hidden;
 }
 
-.pFill {
+.progg
+{
+  width: 600px;
+  height: 10px;
+  border: 2px solid #010101;
+  border-radius: 15px;
+  background: transparent;
+  overflow: hidden;
+}
+
+.pFill
+{
   height: 100%;
   width: 82.64%; /* How much the song is done playing */
   background-color: #010101;
@@ -106,4 +128,51 @@ body {
   height: 80px;
   background-color: #A1A1A1;
   border-radius: 20px;
+}
+
+#srcinp
+{
+  display: none;
+  width: 95%;
+  height: 60px;
+  border-radius: 15px;
+  border: none;
+  padding-left: 60px;
+  background-color: #fff;
+}
+
+#srch:checked ~ #srcinp
+{
+  display: block;
+}
+
+#srch:checked ~ label
+{
+  display: none;
+}
+
+.lyrics
+{
+  background-color: #A1A1A1;
+  width: 1080px;
+  height: 100px;
+  top: 475px;
+}
+
+.ly
+{
+  width: 1080px;
+  left: 20px;
+  font-size: 36px;
+  height: 85px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.queue
+{
+  background-color: #A1A1A1;
+  width: 1080px;
+  height: 100px;
+  top: 625px;
 }
