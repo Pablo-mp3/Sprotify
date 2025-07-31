@@ -102,9 +102,18 @@ body {
   margin: 40px;
 }
 
+.libGrid
+{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 50px;
+  width: 1620px;
+}
+
 .genre-tile
 {
   height: 120px;
+  width: 300px;
   background-color: #A1A1A1;
   color: #111111;
   font-size: 1.1rem;
@@ -114,12 +123,31 @@ body {
   justify-content: center;
   border-radius: 16px;
   cursor: pointer;
-  transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
-.genre-tile:hover {
+.libTile
+{
+  height: 50px;
+  color: #111111;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.genre-tile:hover
+{
   transform: scale(1.1);
-  background-color: #B1B1B1;
+  background-color: #919191;
+}
+
+.libTile:hover
+{
+  transform: scale(1.5);
 }
 
 .sBar
@@ -175,4 +203,32 @@ body {
   width: 1080px;
   height: 100px;
   top: 625px;
+}
+
+.lib
+{
+  top: 175px;
+  left: 900px;
+  width: 1600px;
+  height: 475px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.librgrid
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 150px);
+  gap: 50px 50px; /* 50px vertical & horizontal spacing */
+  padding: 50px 100px; /* 50 top/bottom, 100 left/right */
+}
+
+.librgrid-item {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  overflow: visible;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
 }
