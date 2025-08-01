@@ -217,7 +217,8 @@ body {
 
 .librgrid
 {
-  display: grid;
+  flex-wrap: wrap;
+  display: flex;
   grid-template-columns: repeat(auto-fill, 150px);
   gap: 50px 50px; /* 50px vertical & horizontal spacing */
   padding: 50px 100px; /* 50 top/bottom, 100 left/right */
@@ -231,4 +232,37 @@ body {
   position: relative;
   cursor: pointer;
   text-align: center;
+  display: block;
+}
+
+.vinyl
+{
+  transition: transform 0.25s ease-in-out;
+}
+
+.librgrid-item:hover .vinyl
+{
+  transform: translateX(-18%);
+}
+
+.cover
+{
+  
+  transition: transform 0.25s ease-in-out;
+}
+
+.librgrid-item:hover .cover
+{
+  transform: translateX(-83%);
+}
+
+.play
+{
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* smooth move & glow */
+}
+
+.play:hover
+{
+  transform: translate(-50px,-30px);
+  box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.4);
 }
