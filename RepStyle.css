@@ -443,10 +443,21 @@
 
 .prof
 {
-  height: 500px;
+  height: 450px;
   width: 1200px;
   left: 300px;
   top: 200px;
-  background-color: darkslategrey;
   padding-left: 30px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.me
+{
+  margin: 30px;
+  margin-top: 10px;
+  width: 1080px;
+  height: 75px;
+  padding: 10px;
+  background-color: #919191;
 }

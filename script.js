@@ -8,8 +8,6 @@ fetch('lyrics_hills.txt')
 
 function copyText()
 {
-  const textToCopy = "www.sprotify.com/pablo_com";
-  navigator.clipboard.writeText(textToCopy)
-    .then(() => alert("Copied to clipboard!"))
-    .catch(err => alert("Failed to copy: " + err));
+  const profile = "www.sprotify.com/pablo_com";
+  navigator.clipboard.writeText(profile)
 }
