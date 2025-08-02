@@ -5,3 +5,11 @@ fetch('lyrics_hills.txt')
     lyricsBox.innerText = text;
     lyricsBox.scrollTop = 7115; //7117 [03:18] I only call you when it's half past five
   });
+
+function copyText()
+{
+  const textToCopy = "www.sprotify.com/pablo_com";
+  navigator.clipboard.writeText(textToCopy)
+    .then(() => alert("Copied to clipboard!"))
+    .catch(err => alert("Failed to copy: " + err));
+}
