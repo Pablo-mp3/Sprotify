@@ -1,0 +1,31 @@
+Listening Time
+[Ltoday]185[/Ltoday]
+[Lthis_week]845[/Lthis_week]
+[Lthis_month]3,780[/Lthis_month]
+[Lthis_year]2,647[/Lthis_year]
+[Lall_time]201,240[/Lall_time]
+
+[Streak]
+[current]79[/current]
+[longest]314[/longest]
+
+[Longest Session]
+[Tcurrent]34[/Tcurrent]
+[Tthis_week]93[/Tthis_week]
+[Tthis_month]97[/Tthis_month]
+[Tthis_year]137[/Tthis_year]
+[Tall_time]233[/Tall_time]
+
+[Top Songs]
+[Stoday]Often[/Stoday]
+[Sthis_week]Chihiro[/Sthis_week]
+[Sthis_month]Until I Bleed Out[/Sthis_month]
+[Sthis_year]Timeless[/Sthis_year]
+[Sall_time]Hope[/Sall_time]
+
+[Top Artists]
+[Atoday]The Weeknd[/Atoday]
+[Athis_week]Billie Eilish[/Athis_week]
+[Athis_month]Billie Eilish[/Athis_month]
+[Athis_year]The Weeknd[/Athis_year]
+[Aall_time]XXXTentacion[/Aall_time]

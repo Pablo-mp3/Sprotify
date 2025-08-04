@@ -71,6 +71,11 @@
   left: 135px;
 }
 
+.l17
+{
+  left: 160px;
+}
+
 .l22
 {
   left: 225px;
@@ -443,13 +448,14 @@
 
 .prof
 {
-  height: 450px;
+  height: 600px;
   width: 1200px;
-  left: 300px;
-  top: 200px;
+  left: 400px;
+  top: 25px;
   padding-left: 30px;
   overflow-y: scroll;
   scrollbar-width: none;
+  font-size: 25px;
 }
 
 .me
@@ -460,4 +466,9 @@
   height: 75px;
   padding: 10px;
   background-color: #919191;
+}
+
+.cir
+{
+  border-radius: 50%;
 }
