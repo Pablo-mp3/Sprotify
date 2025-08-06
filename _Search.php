@@ -102,7 +102,7 @@
         <img src="folder-music.svg" class="a q5 t2 c l31">
         <div class="a x1 c t60 l31 b">Library</div>
       </div></a>
-      <a href="iprofile.html"><div>
+      <a href="iprofile.php"><div>
         <img src="user-music.svg" class="a q5 t2 c l40">
         <div class="a x1 c t60 l40 b">Profile</div>
       </div></a>

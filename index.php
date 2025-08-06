@@ -62,21 +62,26 @@
         <div class="a x1 c t60 l45">Home</div>
       </div>
       <a href="isearch.html"><div>
-        <img src="search.svg" class="a q5 t2 l15">
+        <img src="search.svg" class="a q5 t2 l13 c">
         <div class="a x1 c t60 l13 b">Search</div>
       </div></a>
-      <div>
+      <a href="iplayer.html"><div>
         <img src="playCircle.svg" class="a q4 c t6 l22">
-      </div>
-      <div>
+      </div></a>
+      <a href="ilibrary.html"><div>
         <img src="folder-music.svg" class="a q5 t2 c l31">
-        <div class="a x1 c t60 l31">Library</div>
-      </div>
-      <div>
+        <div class="a x1 c t60 l31 b">Library</div>
+      </div></a>
+      <a href="iprofile.php"><div>
         <img src="user-music.svg" class="a q5 t2 c l40">
-        <div class="a x1 c t60 l40">Profile</div>
-      </div>
+        <div class="a x1 c t60 l40 b">Profile</div>
+      </div></a>
       <div class="a l45 c sel"></div>
     </div>
   </body>
 </html>
+<!--
+git add .
+git commit -m "text"
+git push origin main
+-->

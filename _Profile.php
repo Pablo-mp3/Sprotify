@@ -1,3 +1,8 @@
+<?php
+    $stats = file_get_contents("Stats.txt");
+    preg_match('/\[Stoday\](.*?)\[\/Stoday\]/', $stats, $matches);
+    $SArtist = isset($matches[1]) ? $matches[1] : "No artist found";
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -90,8 +95,8 @@
             <option value="5">Audiophile</option>
           </select>
           <!----><h3>Stats</h3>
-          Top Song: <span style="color: #21c663;">Kissland</span>
-          <br> Top Artist: <span style="color: #b3041b;">The Weeknd</span>
+          Top Songs: <span style="color: #21c663;">Kissland</span>
+          <br> Top Artist: <span style="color: #b3041b;"><?php echo $Stoday; ?></span>
           <br><a href="Stats.txt" style="color: #007c;">View Full Stats</a>
           <!----><h3>Experimental Features</h3>
           Join Beta: <a href="" style="color: black;">Enable</a>
