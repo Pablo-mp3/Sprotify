@@ -1,7 +1,13 @@
 <?php
-    $stats = file_get_contents("Stats.txt");
-    preg_match('/\[Stoday\](.*?)\[\/Stoday\]/', $stats, $matches);
-    $SArtist = isset($matches[1]) ? $matches[1] : "No artist found";
+  function getStatValue($tag, $filepath = "Stats.txt") 
+  {
+    if (!file_exists($filepath)) return null;
+    $file = file_get_contents($filepath);
+    preg_match("/\[$tag\](.*?)\[\/$tag\]/", $file, $matches);
+    return $matches[1] ?? null;
+  }
+  $Stoday = getStatValue("Stoday");
+  $Atoday = getStatValue("Atoday");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +24,9 @@
     <!--Main Window-->
     <div class="a w W win l4">
       <div>
-        <img src="Pablo.jpg" class="q1 l4 t4 a cir">
+        <div title="Made By Pablo">
+          <img src="Pablo.jpg" class="q1 l4 t4 a cir">
+        </div>
         <h1 class="a x4 l17 t2">Pablo</h1>
         <div class="a l17 t100" title="Copy profile link">
             <a href="" onclick="copyText()">@pablo_mp3</a>
@@ -95,8 +103,8 @@
             <option value="5">Audiophile</option>
           </select>
           <!----><h3>Stats</h3>
-          Top Songs: <span style="color: #21c663;">Kissland</span>
-          <br> Top Artist: <span style="color: #b3041b;"><?php echo $Stoday; ?></span>
+          Top Songs: <span style="color: #21c663;"> <?php echo $Stoday; ?> </span>
+          <br> Top Artist: <span style="color: #b3041b;"> <?php echo $Atoday; ?> </span>
           <br><a href="Stats.txt" style="color: #007c;">View Full Stats</a>
           <!----><h3>Experimental Features</h3>
           Join Beta: <a href="" style="color: black;">Enable</a>
